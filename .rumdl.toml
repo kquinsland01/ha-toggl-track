@@ -1,0 +1,10 @@
+[global]
+# Preserve the existing Markdown line-length policy.
+disable = ["MD013"]
+exclude = ["LICENSE"]
+respect-gitignore = true
+flavor = "gfm"
+
+[per-file-ignores]
+# DocToc generates two spaces before its attribution.
+"docs/development.md" = ["MD064"]

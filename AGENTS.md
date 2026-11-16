@@ -16,7 +16,7 @@ This repository is a Home Assistant custom integration for Toggl Track.
 - `pytest`: run all tests with strict mode and coverage for `custom_components`.
 - `pytest tests/test_init.py -q`: run a focused test during iteration.
 - `pre-commit install`: install local git hooks.
-- `pre-commit run -a`: run format/lint checks (isort, yamllint, markdownlint, JSON/YAML checks).
+- `pre-commit run -a`: run format/lint checks (isort, yamllint, rumdl, JSON/YAML checks).
 
 ## Coding Style & Naming Conventions
 
