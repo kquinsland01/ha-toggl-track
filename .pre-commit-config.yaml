@@ -61,10 +61,10 @@ repos:
       - id: yamllint
         args: [-c=.yamllint.yaml]
 
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.47.0
+  - repo: https://github.com/rvben/rumdl-pre-commit
+    rev: v0.3.4
     hooks:
-      - id: markdownlint
+      - id: rumdl
 
   # - repo: https://github.com/asottile/pyupgrade
   #   rev: v2.3.0

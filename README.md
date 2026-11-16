@@ -163,7 +163,7 @@ Docs for this service are coming soon; operates similar to the create time entry
 
 #### `toggl_track.edit_time_entry`
 
-Similar to [`new_time_entry`](README#`toggl_track.new_time_entry`) but meant for editing an existing time entry.
+Similar to [`new_time_entry`](#toggl_tracknew_time_entry) but meant for editing an existing time entry.
 
 Internally, the Toggle API allows editing virtually every aspect of a time entry but I've chosen to only expose the `description` and `tags` fields for now as my use case doesn't require anything else.
 
