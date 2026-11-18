@@ -62,7 +62,7 @@ repos:
         args: [-c=.yamllint.yaml]
 
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.3.4
+    rev: v0.3.5
     hooks:
       - id: rumdl
 
